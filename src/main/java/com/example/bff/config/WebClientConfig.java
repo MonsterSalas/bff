@@ -16,5 +16,15 @@ public class WebClientConfig {
     public WebClient roleWebClient(WebClient.Builder builder) {
         return builder.baseUrl("https://funcioncloudnative2.azurewebsites.net/api").build();
     }
+
+    @Bean
+    public WebClient graphQLUserWebClient(WebClient.Builder builder) {
+        return builder.baseUrl("https://functionsgraphql1.azurewebsites.net/api/graphql?").build();
+    }
+
+    @Bean
+    public WebClient graphQLRolWebClient(WebClient.Builder builder) {
+        return builder.baseUrl("https://funciongraphql2.azurewebsites.net/api/graphql?").build();
+    }
 }
 
