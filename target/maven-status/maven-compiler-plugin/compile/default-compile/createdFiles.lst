@@ -1,0 +1,6 @@
+com\example\bff\RoleController.class
+com\example\bff\BffApplication.class
+com\example\bff\services\UserService.class
+com\example\bff\config\WebClientConfig.class
+com\example\bff\services\RoleService.class
+com\example\bff\UserController.class
